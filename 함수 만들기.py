@@ -14,9 +14,7 @@ def plus(v1, v2, v3):
 while True: 
     a = 0
     b = 0
-
-    hap = plus(a, b, c)
-
+    c = 0
 
     a = int(input("숫자를 입력하세요"))
     b = int(input("숫자를 입력하세요"))
