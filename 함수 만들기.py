@@ -2,11 +2,11 @@ def plus(v1, v2, v3):
     result = 0
     if v3 =='+':
         result = v1 + v2
-    elif: v3 == '-':
+    elif v3 == '-':
         resul = v1 - v2
-    elif: v3 == '*':
+    elif v3 == '*':
         result = v1 * v2
-    elif: v3 == '/':
+    elif v3 == '/':
         result = v1 / v2
         
         return result
