@@ -14,11 +14,13 @@ def plus(v1, v2, v3):
 while True: 
     a = 0
     b = 0
-    hap = 0
+
+    hap = plus(a, b, c)
+
 
     a = int(input("숫자를 입력하세요"))
     b = int(input("숫자를 입력하세요"))
-    c = input("사칙연산==>")
+    c = input("사칙연산==> ")
     hap = plus(a, b)
 
     print("함수 결과는 %d" % hap)
