@@ -21,6 +21,6 @@ while True:
     a = int(input("숫자를 입력하세요"))
     b = int(input("숫자를 입력하세요"))
     c = input("사칙연산==> ")
-    hap = plus(a, b)
+    hap = plus(a, b, c)
 
     print("함수 결과는 %d" % hap)
